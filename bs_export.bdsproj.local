@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020.03.21 08:05:45.159.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\Project1.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bs_export.bdsproj</Transaction>
+    <Transaction>2020.03.21 08:06:16.252.pas,C:\Users\iu\Documents\Borland Studio Projects\Unit2.pas=C:\Users\iu\Documents\Borland Studio Projects\MF_.pas</Transaction>
+    <Transaction>2020.03.21 08:06:16.252.dfm,C:\Users\iu\Documents\Borland Studio Projects\Unit2.dfm=C:\Users\iu\Documents\Borland Studio Projects\MF_.dfm</Transaction>
+    <Transaction>2020.03.21 08:07:06.854.pas,C:\Users\iu\Documents\Borland Studio Projects\MF_.pas=C:\Users\iu\Documents\Borland Studio Projects\MF_bs_export.pas</Transaction>
+    <Transaction>2020.03.21 08:07:06.854.dfm,C:\Users\iu\Documents\Borland Studio Projects\MF_.dfm=C:\Users\iu\Documents\Borland Studio Projects\MF_bs_export.dfm</Transaction>
+    <Transaction>2020.03.21 08:08:12.758.pas,C:\Users\iu\Documents\Borland Studio Projects\Unit2.pas=C:\Users\iu\Documents\Borland Studio Projects\DM_export.pas</Transaction>
+    <Transaction>2020.03.21 08:08:12.758.dfm,C:\Users\iu\Documents\Borland Studio Projects\Unit2.dfm=C:\Users\iu\Documents\Borland Studio Projects\DM_export.dfm</Transaction>
+    <Transaction>2020.03.21 08:10:33.754.pas,C:\Users\iu\Documents\Borland Studio Projects\DM_export.pas=C:\_PROJECTS\_00125\DM_export.pas</Transaction>
+    <Transaction>2020.03.21 08:10:33.754.dfm,C:\Users\iu\Documents\Borland Studio Projects\DM_export.dfm=C:\_PROJECTS\_00125\DM_export.dfm</Transaction>
+    <Transaction>2020.03.21 08:10:35.033.pas,C:\Users\iu\Documents\Borland Studio Projects\MF_bs_export.pas=C:\_PROJECTS\_00125\MF_bs_export.pas</Transaction>
+    <Transaction>2020.03.21 08:10:35.033.dfm,C:\Users\iu\Documents\Borland Studio Projects\MF_bs_export.dfm=C:\_PROJECTS\_00125\MF_bs_export.dfm</Transaction>
+    <Transaction>2020.03.21 08:10:36.246.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bs_export.bdsproj=C:\_PROJECTS\_00125\bs_export.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<PersonalityInfo>
+		<Option>
+			<Option Name="Personality">Default.Personality</Option>
+			<Option Name="ProjectType"></Option>
+			<Option Name="Version">1.0</Option>
+			<Option Name="GUID">{36640F86-6101-406A-B747-19F799C8FFC4}</Option>
+		</Option>
+	</PersonalityInfo>
+	<Default.Personality>  <Projects>
+      <Projects Name="bus_stops.exe">bus_stops.bdsproj</Projects>
+      <Projects Name="bs_shedule.exe">bs_shedule.bdsproj</Projects>
+      <Projects Name="bs_shedv.dll">bs_shedv.bdsproj</Projects>
+      <Projects Name="bs_export.exe">bs_export.bdsproj</Projects>
+      <Projects Name="Targets">bus_stops.exe bs_shedule.exe bs_shedv.dll bs_export.exe</Projects>
+    </Projects>
+    <Dependencies/>
+  </Default.Personality>
+</BorlandProject>

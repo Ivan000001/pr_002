@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020.03.15 16:06:58.395.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\Project1.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bs_shedv.bdsproj</Transaction>
+    <Transaction>2020.03.15 16:07:38.966.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bs_shedv.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bs_shedv.bdsproj</Transaction>
+    <Transaction>2020.03.15 16:08:15.482.pas,C:\Users\iu\Documents\Borland Studio Projects\Unit2.pas=C:\_PROJECTS\_00125\Unit2.pas</Transaction>
+    <Transaction>2020.03.15 16:08:15.482.dfm,C:\Users\iu\Documents\Borland Studio Projects\Unit2.dfm=C:\_PROJECTS\_00125\Unit2.dfm</Transaction>
+    <Transaction>2020.03.15 16:08:37.682.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bs_shedv.bdsproj=C:\_PROJECTS\_00125\bs_shedv.bdsproj</Transaction>
+    <Transaction>2020.03.15 16:08:53.027.pas,C:\_PROJECTS\_00125\Unit2.pas=C:\_PROJECTS\_00125\DM_dll.pas</Transaction>
+    <Transaction>2020.03.15 16:08:53.027.dfm,C:\_PROJECTS\_00125\Unit2.dfm=C:\_PROJECTS\_00125\DM_dll.dfm</Transaction>
+    <Transaction>2020.03.15 16:36:22.184.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\exp_xls.pas</Transaction>
+    <Transaction>2020.03.22 08:13:53.850.bdsproj,C:\_PROJECTS\_00125\bs_shedv.bdsproj=C:\_PROJECTS\_00125\bs_shedv.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>

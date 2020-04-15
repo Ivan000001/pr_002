@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020.03.08 10:42:56.138.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\Project1.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bus_stops.bdsproj</Transaction>
+    <Transaction>2020.03.08 10:43:28.059.pas,C:\Users\iu\Documents\Borland Studio Projects\Unit2.pas=C:\Users\iu\Documents\Borland Studio Projects\MF_bius_stops.pas</Transaction>
+    <Transaction>2020.03.08 10:43:28.059.dfm,C:\Users\iu\Documents\Borland Studio Projects\Unit2.dfm=C:\Users\iu\Documents\Borland Studio Projects\MF_bius_stops.dfm</Transaction>
+    <Transaction>2020.03.08 10:44:55.524.pas,C:\Users\iu\Documents\Borland Studio Projects\MF_bius_stops.pas=C:\_PROJECTS\00125\MF_bius_stops.pas</Transaction>
+    <Transaction>2020.03.08 10:44:55.524.dfm,C:\Users\iu\Documents\Borland Studio Projects\MF_bius_stops.dfm=C:\_PROJECTS\00125\MF_bius_stops.dfm</Transaction>
+    <Transaction>2020.03.08 10:44:58.941.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bus_stops.bdsproj=C:\_PROJECTS\00125\bus_stops.bdsproj</Transaction>
+    <Transaction>2020.03.08 10:46:41.053.pas,C:\_PROJECTS\00125\MF_bius_stops.pas=C:\_PROJECTS\00125\MF_bus_stops.pas</Transaction>
+    <Transaction>2020.03.08 10:46:41.053.dfm,C:\_PROJECTS\00125\MF_bius_stops.dfm=C:\_PROJECTS\00125\MF_bus_stops.dfm</Transaction>
+    <Transaction>2020.03.08 10:48:40.258.pas,C:\_PROJECTS\00125\Unit1.pas=C:\_PROJECTS\00125\DM_.pas</Transaction>
+    <Transaction>2020.03.08 10:48:40.258.dfm,C:\_PROJECTS\00125\Unit1.dfm=C:\_PROJECTS\00125\DM_.dfm</Transaction>
+    <Transaction>2020.03.08 10:49:18.339.pas,C:\_PROJECTS\00125\DM_.pas=C:\_PROJECTS\00125\DM.pas</Transaction>
+    <Transaction>2020.03.08 10:49:18.339.dfm,C:\_PROJECTS\00125\DM_.dfm=C:\_PROJECTS\00125\DM.dfm</Transaction>
+    <Transaction>2020.03.08 11:33:44.391.pas,C:\_PROJECTS\00125\Unit1.pas=C:\_PROJECTS\00125\F01_bus_list.pas</Transaction>
+    <Transaction>2020.03.08 11:33:44.391.dfm,C:\_PROJECTS\00125\Unit1.dfm=C:\_PROJECTS\00125\F01_bus_list.dfm</Transaction>
+    <Transaction>2020.03.09 09:43:42.124.pas,C:\_PROJECTS\00125\Unit1.pas=C:\_PROJECTS\00125\F01_oot_rec.pas</Transaction>
+    <Transaction>2020.03.09 09:43:42.124.dfm,C:\_PROJECTS\00125\Unit1.dfm=C:\_PROJECTS\00125\F01_oot_rec.dfm</Transaction>
+    <Transaction>2020.03.14 10:49:11.627.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F02_tp_points.pas</Transaction>
+    <Transaction>2020.03.14 10:49:11.627.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F02_tp_points.dfm</Transaction>
+    <Transaction>2020.03.14 11:01:59.290.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F02_tp_points_rec.pas</Transaction>
+    <Transaction>2020.03.14 11:01:59.290.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F02_tp_points_rec.dfm</Transaction>
+    <Transaction>2020.03.14 11:49:46.567.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F03_schems.pas</Transaction>
+    <Transaction>2020.03.14 11:49:46.567.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F03_schems.dfm</Transaction>
+    <Transaction>2020.03.14 15:33:11.512.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F03_schems_rec.pas</Transaction>
+    <Transaction>2020.03.14 15:33:11.512.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F03_schems_rec.dfm</Transaction>
+    <Transaction>2020.03.15 07:31:49.834.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F04_docs.pas</Transaction>
+    <Transaction>2020.03.15 07:31:49.835.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F04_docs.dfm</Transaction>
+    <Transaction>2020.03.15 07:53:24.951.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F04_docs_rec.pas</Transaction>
+    <Transaction>2020.03.15 07:53:24.951.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F04_docs_rec.dfm</Transaction>
+    <Transaction>2020.03.15 12:40:29.410.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F03_gbu_rec.pas</Transaction>
+    <Transaction>2020.03.15 12:40:29.410.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F03_gbu_rec.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

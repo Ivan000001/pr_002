@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020.03.08 10:44:07.687.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\Project1.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bs_shedule.bdsproj</Transaction>
+    <Transaction>2020.03.08 10:44:27.167.pas,C:\Users\iu\Documents\Borland Studio Projects\Unit3.pas=C:\Users\iu\Documents\Borland Studio Projects\MF_bs_shedule.pas</Transaction>
+    <Transaction>2020.03.08 10:44:27.167.dfm,C:\Users\iu\Documents\Borland Studio Projects\Unit3.dfm=C:\Users\iu\Documents\Borland Studio Projects\MF_bs_shedule.dfm</Transaction>
+    <Transaction>2020.03.08 10:45:04.819.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bs_shedule.bdsproj=C:\Users\iu\Documents\Borland Studio Projects\bs_shedule.bdsproj</Transaction>
+    <Transaction>2020.03.08 10:47:09.345.pas,C:\Users\iu\Documents\Borland Studio Projects\MF_bs_shedule.pas=C:\_PROJECTS\00125\MF_bs_shedule.pas</Transaction>
+    <Transaction>2020.03.08 10:47:09.345.dfm,C:\Users\iu\Documents\Borland Studio Projects\MF_bs_shedule.dfm=C:\_PROJECTS\00125\MF_bs_shedule.dfm</Transaction>
+    <Transaction>2020.03.08 10:47:24.362.bdsproj,C:\Users\iu\Documents\Borland Studio Projects\bs_shedule.bdsproj=C:\_PROJECTS\00125\bs_shedule.bdsproj</Transaction>
+  </Transactions>
+</BorlandProject>
