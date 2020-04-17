@@ -12,7 +12,11 @@ uses
   F03_schems_rec in 'F03_schems_rec.pas' {F_schems_rec},
   F04_docs in 'F04_docs.pas' {f_docs},
   F04_docs_rec in 'F04_docs_rec.pas' {f_docs_rec},
-  F03_gbu_rec in 'F03_gbu_rec.pas' {F_gbu_rec};
+  F03_gbu_rec in 'F03_gbu_rec.pas' {F_gbu_rec},
+  F05_pid_list in 'F05_pid_list.pas' {F_pid_list},
+  F06_materials in 'F06_materials.pas' {F_materials},
+  F06_materials_rec in 'F06_materials_rec.pas' {F_materials_rec},
+  F06_materials_doc_rec in 'F06_materials_doc_rec.pas' {F_materials_doc_rec};
 
 {$R *.res}
 
@@ -29,5 +33,9 @@ begin
   Application.CreateForm(Tf_docs, f_docs);
   Application.CreateForm(Tf_docs_rec, f_docs_rec);
   Application.CreateForm(TF_gbu_rec, F_gbu_rec);
+  Application.CreateForm(TF_pid_list, F_pid_list);
+  Application.CreateForm(TF_materials, F_materials);
+  Application.CreateForm(TF_materials_rec, F_materials_rec);
+  Application.CreateForm(TF_materials_doc_rec, F_materials_doc_rec);
   Application.Run;
 end.

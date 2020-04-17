@@ -31,5 +31,13 @@
     <Transaction>2020.03.15 07:53:24.951.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F04_docs_rec.dfm</Transaction>
     <Transaction>2020.03.15 12:40:29.410.pas,C:\_PROJECTS\_00125\Unit1.pas=C:\_PROJECTS\_00125\F03_gbu_rec.pas</Transaction>
     <Transaction>2020.03.15 12:40:29.410.dfm,C:\_PROJECTS\_00125\Unit1.dfm=C:\_PROJECTS\_00125\F03_gbu_rec.dfm</Transaction>
+    <Transaction>2020.04.16 10:44:50.393.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F05_pid_list.pas</Transaction>
+    <Transaction>2020.04.16 10:44:50.393.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F05_pid_list.dfm</Transaction>
+    <Transaction>2020.04.17 08:03:06.475.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F06_materials.pas</Transaction>
+    <Transaction>2020.04.17 08:03:06.476.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F06_materials.dfm</Transaction>
+    <Transaction>2020.04.17 09:10:27.207.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F06_materials_rec.pas</Transaction>
+    <Transaction>2020.04.17 09:10:27.207.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F06_materials_rec.dfm</Transaction>
+    <Transaction>2020.04.17 09:11:15.075.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F06_materials_doc_rec.pas</Transaction>
+    <Transaction>2020.04.17 09:11:15.075.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F06_materials_doc_rec.dfm</Transaction>
   </Transactions>
 </BorlandProject>

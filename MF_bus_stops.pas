@@ -12,6 +12,8 @@ type
     B_tp_point: TBitBtn;
     B_schema: TBitBtn;
     B_docs: TBitBtn;
+    B_materials: TBitBtn;
+    procedure B_materialsClick(Sender: TObject);
     procedure B_docsClick(Sender: TObject);
     procedure B_schemaClick(Sender: TObject);
     procedure B_tp_pointClick(Sender: TObject);
@@ -27,7 +29,7 @@ var
 
 implementation
 
-uses F01_bus_list, F02_tp_points, F03_schems, F04_docs;
+uses F01_bus_list, F02_tp_points, F03_schems, F04_docs, F06_materials;
 
 {$R *.dfm}
 
@@ -39,6 +41,11 @@ end;
 procedure TMainForm.B_docsClick(Sender: TObject);
 begin
   f_docs.show();
+end;
+
+procedure TMainForm.B_materialsClick(Sender: TObject);
+begin
+  f_materials.show();
 end;
 
 procedure TMainForm.B_schemaClick(Sender: TObject);

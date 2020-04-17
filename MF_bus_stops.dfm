@@ -3,7 +3,7 @@ object MainForm: TMainForm
   Top = 0
   BorderStyle = bsDialog
   Caption = 'MainForm'
-  ClientHeight = 186
+  ClientHeight = 316
   ClientWidth = 534
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -49,5 +49,14 @@ object MainForm: TMainForm
     Caption = 'B_docs'
     TabOrder = 3
     OnClick = B_docsClick
+  end
+  object B_materials: TBitBtn
+    Left = 362
+    Top = 16
+    Width = 75
+    Height = 57
+    Caption = 'B_materials'
+    TabOrder = 4
+    OnClick = B_materialsClick
   end
 end

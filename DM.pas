@@ -47,6 +47,11 @@ type
     DS_gbu: TDataSource;
     zq_gbu_oot: TZReadOnlyQuery;
     DS_gbu_oot: TDataSource;
+    zq_materials: TZReadOnlyQuery;
+    DS_materials: TDataSource;
+    zq_materials_doc: TZReadOnlyQuery;
+    DS_materials_doc: TDataSource;
+    procedure DS_materialsDataChange(Sender: TObject; Field: TField);
     procedure DS_schemsDataChange(Sender: TObject; Field: TField);
     procedure DS_cb_districtsDataChange(Sender: TObject; Field: TField);
   private
@@ -67,6 +72,13 @@ begin
   zq_cb_gr_streets.Close();
   zq_cb_gr_streets.ParamByName('p_districts').AsInteger:=zq_cb_districts.FieldByName('id_district').AsInteger;
   zq_cb_gr_streets.Open();
+end;
+
+procedure TDM_.DS_materialsDataChange(Sender: TObject; Field: TField);
+begin
+  zq_materials_doc.Close();
+  zq_materials_doc.ParamByName('p_id_material').AsInteger:=zq_materials.FieldByName('id_material').AsInteger;
+  zq_materials_doc.Open();
 end;
 
 procedure TDM_.DS_schemsDataChange(Sender: TObject; Field: TField);

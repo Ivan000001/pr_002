@@ -9,7 +9,7 @@ object DataModule2: TDataModule2
     Properties.Strings = (
       'codepage=cp1251')
     Connected = True
-    HostName = 'db-pu01'
+    HostName = 'db-01'
     Port = 3306
     Database = 'metz_bus_stops_01'
     User = 'metz'

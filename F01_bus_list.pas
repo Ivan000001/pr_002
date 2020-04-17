@@ -23,6 +23,8 @@ type
     DBText1: TDBText;
     StatusBar1: TStatusBar;
     DBText2: TDBText;
+    B_pid: TBitBtn;
+    procedure B_pidClick(Sender: TObject);
     procedure B_delClick(Sender: TObject);
     procedure B_editClick(Sender: TObject);
     procedure B_addClick(Sender: TObject);
@@ -43,7 +45,7 @@ var
 implementation
 
 {$R *.dfm}
-uses dm, F01_oot_rec;
+uses dm, F01_oot_rec, F05_pid_list;
 procedure TF_bus_list.B_addClick(Sender: TObject);
 begin
   dm_.zq_oot_cb_districts.Open();
@@ -144,6 +146,14 @@ begin
   dm_.zq_oot.ParamByName('p_schema_check').AsInteger:=dm_.zq_cb_schema_check.FieldByName('id_check').AsInteger;
   dm_.zq_oot.ParamByName('p_ready').AsInteger:=dm_.zq_cb_ready.FieldByName('id_check').AsInteger;
   dm_.zq_oot.Open();
+end;
+
+procedure TF_bus_list.B_pidClick(Sender: TObject);
+begin
+  if dm_.zq_oot.RecordCount>0 then
+    begin
+      f_pid_list.show();
+    end;
 end;
 
 procedure TF_bus_list.DBGridEh2DrawColumnCell(Sender: TObject;

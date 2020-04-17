@@ -248,4 +248,13 @@ object F_bus_list: TF_bus_list
     Height = 19
     Panels = <>
   end
+  object B_pid: TBitBtn
+    Left = 1024
+    Top = 536
+    Width = 33
+    Height = 25
+    Caption = 'B_pid'
+    TabOrder = 11
+    OnClick = B_pidClick
+  end
 end

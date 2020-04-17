@@ -505,4 +505,67 @@ object DM_: TDM_
     Left = 512
     Top = 552
   end
+  object zq_materials: TZReadOnlyQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'SELECT '
+      'id_material,'
+      'name_material,'
+      'short_name,'
+      'active,'
+      'add_act'
+      'FROM ls_materials'
+      'where (:p_visible=1 or active=1)')
+    Params = <
+      item
+        DataType = ftString
+        Name = 'p_visible'
+        ParamType = ptUnknown
+        Value = '0'
+      end>
+    Left = 280
+    Top = 592
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'p_visible'
+        ParamType = ptUnknown
+        Value = '0'
+      end>
+  end
+  object DS_materials: TDataSource
+    DataSet = zq_materials
+    OnDataChange = DS_materialsDataChange
+    Left = 328
+    Top = 592
+  end
+  object zq_materials_doc: TZReadOnlyQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'select'
+      '*'
+      'from ls_materials_doc'
+      'where (:p_id_material=id_material_a)')
+    Params = <
+      item
+        DataType = ftString
+        Name = 'p_id_material'
+        ParamType = ptUnknown
+        Value = 0
+      end>
+    Left = 280
+    Top = 648
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'p_id_material'
+        ParamType = ptUnknown
+        Value = 0
+      end>
+  end
+  object DS_materials_doc: TDataSource
+    DataSet = zq_materials_doc
+    Left = 328
+    Top = 648
+  end
 end
