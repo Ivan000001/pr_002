@@ -1,10 +1,10 @@
-object F_pid_list: TF_pid_list
+object F_pid_list_add: TF_pid_list_add
   Left = 0
   Top = 0
   BorderStyle = bsDialog
-  Caption = 'F_pid_list'
-  ClientHeight = 393
-  ClientWidth = 479
+  Caption = 'F_pid_list_add'
+  ClientHeight = 387
+  ClientWidth = 424
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -14,54 +14,19 @@ object F_pid_list: TF_pid_list
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
-  object Label1: TLabel
-    Left = 16
-    Top = 16
-    Width = 42
-    Height = 21
-    Caption = 'Label1'
-  end
-  object Label2: TLabel
-    Left = 64
-    Top = 16
-    Width = 324
-    Height = 13
-    Caption = 'Label2'
-  end
-  object Label3: TLabel
-    Left = 394
-    Top = 16
-    Width = 31
-    Height = 13
-    Caption = 'Label3'
-  end
-  object Label4: TLabel
-    Left = 16
-    Top = 43
-    Width = 409
-    Height = 13
-    Caption = 'Label4'
-  end
-  object l_id_oot: TLabel
-    Left = 431
-    Top = 24
-    Width = 3
-    Height = 13
-    Visible = False
-  end
   object DBGridEh1: TDBGridEh
-    Left = 16
-    Top = 80
+    Left = 8
+    Top = 8
     Width = 409
-    Height = 289
+    Height = 361
     DynProps = <>
     IndicatorOptions = [gioShowRowIndicatorEh]
     Options = [dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
     TabOrder = 0
     VertScrollBar.VisibleMode = sbAlwaysShowEh
+    OnDblClick = DBGridEh1DblClick
     Columns = <
       item
-        Alignment = taCenter
         DynProps = <>
         EditButtons = <>
         FieldName = 'pr_code'
@@ -81,31 +46,5 @@ object F_pid_list: TF_pid_list
       end>
     object RowDetailData: TRowDetailPanelControlEh
     end
-  end
-  object B_add: TBitBtn
-    Left = 431
-    Top = 80
-    Width = 33
-    Height = 33
-    Caption = 'B_add'
-    TabOrder = 1
-    OnClick = B_addClick
-  end
-  object B_del: TBitBtn
-    Left = 431
-    Top = 119
-    Width = 33
-    Height = 33
-    Caption = 'B_del'
-    TabOrder = 2
-    OnClick = B_delClick
-  end
-  object B_exe: TBitBtn
-    Left = 431
-    Top = 158
-    Width = 33
-    Height = 33
-    Caption = 'B_exe'
-    TabOrder = 3
   end
 end

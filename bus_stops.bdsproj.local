@@ -39,5 +39,7 @@
     <Transaction>2020.04.17 09:10:27.207.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F06_materials_rec.dfm</Transaction>
     <Transaction>2020.04.17 09:11:15.075.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F06_materials_doc_rec.pas</Transaction>
     <Transaction>2020.04.17 09:11:15.075.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F06_materials_doc_rec.dfm</Transaction>
+    <Transaction>2020.04.20 11:10:57.774.pas,C:\git-clone\pr_002\Unit1.pas=C:\git-clone\pr_002\F05_pid_list_add.pas</Transaction>
+    <Transaction>2020.04.20 11:10:57.774.dfm,C:\git-clone\pr_002\Unit1.dfm=C:\git-clone\pr_002\F05_pid_list_add.dfm</Transaction>
   </Transactions>
 </BorlandProject>

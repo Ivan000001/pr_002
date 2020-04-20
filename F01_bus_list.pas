@@ -45,7 +45,8 @@ var
 implementation
 
 {$R *.dfm}
-uses dm, F01_oot_rec, F05_pid_list;
+uses dm, F01_oot_rec, F05_pid_list, zdataset,db;
+
 procedure TF_bus_list.B_addClick(Sender: TObject);
 begin
   dm_.zq_oot_cb_districts.Open();
@@ -149,10 +150,27 @@ begin
 end;
 
 procedure TF_bus_list.B_pidClick(Sender: TObject);
+var F: TF_pid_list;
+  zq:TZReadOnlyQuery;
+  ds:TDataSource;
 begin
   if dm_.zq_oot.RecordCount>0 then
     begin
-      f_pid_list.show();
+      f:=TF_pid_list.Create(self);
+      f.label1.caption:=dm_.zq_oot.FieldByName('d_short_name').AsString;
+      f.label2.caption:=dm_.zq_oot.FieldByName('name_oot').AsString;
+      f.label3.caption:=dm_.zq_oot.FieldByName('direction').AsString;
+      f.label4.caption:=dm_.zq_oot.FieldByName('address').AsString;
+      f.l_id_oot.caption:=dm_.zq_oot.FieldByName('id_oot').AsString;
+      zq:=TZReadOnlyQuery.Create(self);
+      zq.Connection:=dm_.ZConnection1;
+      zq.SQL.Text:=dm_.zq_pid_docs.SQL.Text;
+      zq.ParamByName('p_id_oot').AsInteger:= dm_.zq_oot.FieldByName('id_oot').AsInteger;
+      ds:=TDataSource.Create(self);
+      ds.DataSet:=zq;
+      f.DBGridEh1.DataSource:=ds;
+      zq.Open();
+      f.show();
     end;
 end;
 

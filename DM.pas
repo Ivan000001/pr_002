@@ -51,6 +51,7 @@ type
     DS_materials: TDataSource;
     zq_materials_doc: TZReadOnlyQuery;
     DS_materials_doc: TDataSource;
+    zq_pid_docs: TZReadOnlyQuery;
     procedure DS_materialsDataChange(Sender: TObject; Field: TField);
     procedure DS_schemsDataChange(Sender: TObject; Field: TField);
     procedure DS_cb_districtsDataChange(Sender: TObject; Field: TField);

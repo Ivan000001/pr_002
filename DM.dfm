@@ -568,4 +568,30 @@ object DM_: TDM_
     Left = 328
     Top = 648
   end
+  object zq_pid_docs: TZReadOnlyQuery
+    Connection = ZConnection1
+    SQL.Strings = (
+      'SELECT'
+      'id_row,descr,pr_code'
+      'FROM oot_pid'
+      'LEFT JOIN ls_pid_docs ON ls_pid_docs.id_pid_doc=id_pid_doc_a'
+      'WHERE (id_oot_a=:p_id_oot)'
+      'order by pr_code,descr')
+    Params = <
+      item
+        DataType = ftString
+        Name = 'p_id_oot'
+        ParamType = ptUnknown
+        Value = '0'
+      end>
+    Left = 448
+    Top = 32
+    ParamData = <
+      item
+        DataType = ftString
+        Name = 'p_id_oot'
+        ParamType = ptUnknown
+        Value = '0'
+      end>
+  end
 end

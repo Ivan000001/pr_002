@@ -29,7 +29,8 @@ var
 
 implementation
 
-uses F01_bus_list, F02_tp_points, F03_schems, F04_docs, F06_materials;
+uses F01_bus_list, F02_tp_points, F03_schems, F04_docs, F06_materials,
+  F05_pid_list;
 
 {$R *.dfm}
 
