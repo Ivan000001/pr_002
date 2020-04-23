@@ -17,14 +17,14 @@ object F_pid_list: TF_pid_list
   object Label1: TLabel
     Left = 16
     Top = 16
-    Width = 42
-    Height = 21
+    Width = 31
+    Height = 13
     Caption = 'Label1'
   end
   object Label2: TLabel
     Left = 64
     Top = 16
-    Width = 324
+    Width = 31
     Height = 13
     Caption = 'Label2'
   end
@@ -38,7 +38,7 @@ object F_pid_list: TF_pid_list
   object Label4: TLabel
     Left = 16
     Top = 43
-    Width = 409
+    Width = 31
     Height = 13
     Caption = 'Label4'
   end

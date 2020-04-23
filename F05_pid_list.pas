@@ -53,6 +53,8 @@ begin
     f.ShowModal();
   finally
     DBGridEh1.DataSource.DataSet.Refresh();
+    freeandnil(ds);
+    freeandnil(zq);
     freeandnil(f);
   end;
 end;
