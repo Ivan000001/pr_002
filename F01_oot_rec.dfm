@@ -139,7 +139,6 @@ object F_oot_rec: TF_oot_rec
       EditButtons = <>
       KeyField = 'id_district'
       ListField = 'd_short_name'
-      ListSource = DM_.DS_oot_cb_districts
       TabOrder = 0
       Visible = True
     end
@@ -152,7 +151,6 @@ object F_oot_rec: TF_oot_rec
       EditButtons = <>
       KeyField = 'id_gr_street'
       ListField = 'name_gr_streets'
-      ListSource = DM_.DS_oot_cb_gr_streets
       TabOrder = 1
       Visible = True
     end
@@ -164,7 +162,6 @@ object F_oot_rec: TF_oot_rec
       EditButtons = <>
       KeyField = 'id_exe'
       ListField = 'name_exe_short'
-      ListSource = DM_.DS_oot_cb_exe
       TabOrder = 8
       Visible = True
     end
@@ -200,7 +197,6 @@ object F_oot_rec: TF_oot_rec
       EditButtons = <>
       KeyField = 'id_doc'
       ListField = 'id_tu'
-      ListSource = DM_.DS_oot_cb_tu
       TabOrder = 9
       Visible = True
     end
@@ -213,7 +209,6 @@ object F_oot_rec: TF_oot_rec
       EditButtons = <>
       KeyField = 'id_schema'
       ListField = 'name_schema'
-      ListSource = DM_.DS_oot_cb_schems
       TabOrder = 10
       Visible = True
     end
@@ -285,11 +280,11 @@ object F_oot_rec: TF_oot_rec
       Caption = #1057#1084#1086#1085#1090#1080#1088#1086#1074#1072#1085#1086' '#1042#1056#1065', '#1096#1090
     end
     object chb_ready: TCheckBox
-      Left = 64
+      Left = 16
       Top = 8
       Width = 153
       Height = 17
-      Caption = #1056#1072#1073#1086#1090#1099' '#1079#1072#1074#1077#1088#1096#1077#1085#1099
+      Caption = #1042' '#1088#1072#1073#1086#1090#1077
       TabOrder = 0
     end
     object e_p_output: TEdit
@@ -356,6 +351,14 @@ object F_oot_rec: TF_oot_rec
       Height = 21
       TabOrder = 7
       OnKeyPress = e_count_vrshKeyPress
+    end
+    object CheckBox1: TCheckBox
+      Left = 16
+      Top = 361
+      Width = 97
+      Height = 17
+      Caption = #1056#1072#1073#1086#1090#1099' '#1079#1072#1074#1077#1088#1096#1077#1085#1099
+      TabOrder = 8
     end
   end
   object B_OK: TBitBtn

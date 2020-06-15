@@ -38,28 +38,32 @@ object DM_: TDM_
         'SUM(g_output)AS g_output,SUM(oot_output)AS oot_output,SUM(trench' +
         ')AS trench,SUM(laythepipe)AS laythepipe,'
       'SUM(lay_cl)AS lay_cl,SUM(montage_al) AS montage_al,'
-      'SUM(count_vrsh)AS count_vrsh'
+      'SUM(count_vrsh)AS count_vrsh, SUM(job_finished) AS job_finished'
       
         'FROM v_oot_rep001 WHERE id_district=:p_district AND (find_in_set' +
         '(id_exe,:p_t)>0) GROUP BY id_gr_street ),'
+      ''
       
         'B AS (SELECT SUM(c_) AS c_,sum(p_output) AS p_output,SUM(g_outpu' +
         't)AS g_output,SUM(oot_output) AS oot_output,'
       
         'SUM(trench)AS trench, SUM(laythepipe)AS laythepipe, SUM(lay_cl)A' +
         'S lay_cl,SUM(montage_al)AS montage_al,SUM(count_vrsh) AS count_v' +
-        'rsh FROM A)'
+        'rsh,'
+      'SUM(job_finished) AS job_finished'
+      'FROM A)'
       ''
       
         'SELECT 1 AS t,id_district,id_gr_street,name_gr_streets,nn_oot,na' +
         'me_oot,'
       'direction,1 as c_,id_tu,agreed_res,tp_name,'
       'p_output,g_output,oot_output,null as per_output,'
-      'trench,laythepipe,lay_cl,montage_al,count_vrsh,'
+      'trench,laythepipe,lay_cl,montage_al,count_vrsh,job_finished,'
       'name_exe_short,ks_state'
       
         'FROM v_oot_rep001 WHERE id_district=:p_district AND (find_in_set' +
         '(id_exe,:p_t)>0)'
+      ''
       'union'
       'SELECT'
       '2 AS t,'
@@ -71,10 +75,10 @@ object DM_: TDM_
       'NULL AS direction,'
       'c_,NULL AS id_tu,NULL AS agreed_res, NULL AS tp_name,'
       'p_output,g_output,oot_output,null as per_output,'
-      'trench,laythepipe,lay_cl,montage_al,count_vrsh,'
+      'trench,laythepipe,lay_cl,montage_al,count_vrsh,job_finished,'
       'NULL AS name_exe_short,NULL AS ks_state'
-      ''
       'FROM A'
+      ''
       'UNION'
       'select'
       '3 AS t,'
@@ -87,6 +91,7 @@ object DM_: TDM_
       'c_,NULL AS id_tu,NULL AS agreed_res, NULL AS tp_name,'
       'p_output,g_output,oot_output,null as per_output,'
       'trench,laythepipe,lay_cl,montage_al,count_vrsh,'
+      'job_finished,'
       'NULL AS name_exe_short,NULL AS ks_state'
       ''
       'FROM B'

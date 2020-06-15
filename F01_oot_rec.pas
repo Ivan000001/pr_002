@@ -49,6 +49,7 @@ type
     cb_schems: TDBLookupComboboxEh;
     cb_type_oot: TDBComboBoxEh;
     Label18: TLabel;
+    CheckBox1: TCheckBox;
     procedure e_latKeyPress(Sender: TObject; var Key: Char);
     procedure e_count_vrshKeyPress(Sender: TObject; var Key: Char);
     procedure e_trenchKeyPress(Sender: TObject; var Key: Char);

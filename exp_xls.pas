@@ -42,6 +42,7 @@ begin
   r.AddRect(0,2,16,16);r.MergeCells();r.Wrap:=true;r.Clear();
   r.AddRect(0,2,17,17);r.MergeCells();r.Wrap:=true;r.Clear();
   r.AddRect(0,2,18,18);r.MergeCells();r.Wrap:=true;r.Clear();
+  r.AddRect(0,2,19,19);r.MergeCells();r.Wrap:=true;r.Clear();
 
       Columns[0].WidthPx:= 180; cells[0,0].Value:='Наименование улицы';
       Columns[1].WidthPx:= 50; cells[0,1].Value:='усл.обозн.';
@@ -62,11 +63,12 @@ begin
       Columns[14].WidthPx:= 50; cells[0,14].Value:='Проложено КЛ, м';
       Columns[15].WidthPx:= 50; cells[0,15].Value:='Смонтировано ВЛ, м';
       Columns[16].WidthPx:= 50; cells[0,16].Value:='Смонтировано ВРЩ в точке подключения, шт';
-      Columns[17].WidthPx:= 80; cells[0,17].Value:='Исполнитель';
-      Columns[18].WidthPx:= 50; cells[0,18].Value:='Подписаны КС-2,КС-3';
+      Columns[17].WidthPx:= 50; cells[0,17].Value:='Подключено, шт';
+      Columns[18].WidthPx:= 80; cells[0,18].Value:='Исполнитель';
+      Columns[19].WidthPx:= 50; cells[0,19].Value:='Подписаны КС-2,КС-3';
 
   r:=ranges.add;
-  r.addrect(0,2,0,18);
+  r.addrect(0,2,0,19);
   r.FillPattern:= xlPatternSolid;
   r.FillPatternBGColorIndex:= 24;
   r.BorderColorRGB[xlBorderAll]:= RGB(0, 0, 0);
@@ -98,7 +100,7 @@ begin
 //              r.DeleteRect(0);
               m_street:=ds_.FieldByName('name_gr_streets').AsString;
               r:=ranges.Add;
-              r.AddRect(i-1,i-1,1,18);
+              r.AddRect(i-1,i-1,1,19);
               r.FillPattern:= xlPatternSolid;
               r.FillPatternBGColorIndex:=34;
               r.FontBold:=true;
@@ -120,15 +122,16 @@ begin
           cells[i,14].Value:=ds_.FieldByName('lay_cl').AsFloat;
           cells[i,15].Value:=ds_.FieldByName('montage_al').AsFloat;
           cells[i,16].Value:=ds_.FieldByName('count_vrsh').AsInteger;
-          cells[i,17].Value:=ds_.FieldByName('name_exe_short').AsString;
-          cells[i,18].Value:=ds_.FieldByName('ks_state').AsString;
+          cells[i,17].Value:=ds_.FieldByName('job_finished').AsInteger;
+          cells[i,18].Value:=ds_.FieldByName('name_exe_short').AsString;
+          cells[i,19].Value:=ds_.FieldByName('ks_state').AsString;
           ds_.Next;
           i:=i+1;
         end;
 
 //   r.DeleteRect(0);
        r:=ranges.Add;
-       r.AddRect(1,i-1,0,18);
+       r.AddRect(1,i-1,0,19);
        r.BorderColorRGB[xlBorderAll]:= RGB(0, 0, 0);
        r.BorderStyle[xlBorderAll]:= bsThin;
        r.HAlign:=xlHAlignCenter;

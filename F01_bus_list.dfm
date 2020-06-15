@@ -22,6 +22,7 @@ object F_bus_list: TF_bus_list
     Width = 393
     Height = 17
     DataField = 'address'
+    DataSource = DM_.DS_oot
   end
   object DBText2: TDBText
     Left = 424
@@ -29,6 +30,7 @@ object F_bus_list: TF_bus_list
     Width = 201
     Height = 17
     DataField = 'name_schema'
+    DataSource = DM_.DS_oot
   end
   object DBGridEh2: TDBGridEh
     Left = 8
