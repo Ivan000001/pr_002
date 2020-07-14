@@ -4,6 +4,6 @@
     <Transaction>2020.03.08 10:45:32.621.bdsgroup,C:\Users\iu\Documents\Borland Studio Projects\ProjectGroup1.bdsgroup=C:\_PROJECTS\00125\metz_bs_01.bdsgroup</Transaction>
   </Transactions>
 	<Default.Personality>
-		<Projects ActiveProject="bus_stops.exe"/>
+		<Projects ActiveProject="bs_export.exe"/>
 	</Default.Personality>
 </BorlandProject>
